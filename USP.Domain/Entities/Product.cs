@@ -13,6 +13,19 @@ public class Product : Entity
 
     public One<User> ReferencedOneToOneUser { get; set; }
     public Category Category { get; set; }
+    
+    public Many<User, Product> ReferencedOneToManyUser { get; set; }
+
+    [OwnerSide] 
+    public Many<User, Product> ReferencedManyToManyUser { get; set; }
+
+    // public Category Category { get; set; }
+
+    public Product()
+    {
+        this.InitOneToMany(() => ReferencedOneToManyUser);
+        this.InitManyToMany(() => ReferencedManyToManyUser, user => user.ReferencedManyToManyProducts);
+    }
 
     
 }

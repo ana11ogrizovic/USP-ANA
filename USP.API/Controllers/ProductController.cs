@@ -3,7 +3,6 @@ using USP.Application.Product.Commands;
 using USP.Application.Product.Queries;
 
 namespace USP.API.Controllers;
-
 public class ProductController : ApiBaseController
 {
     
