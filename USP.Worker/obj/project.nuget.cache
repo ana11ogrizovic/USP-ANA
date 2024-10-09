@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DEhB7z634pk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anaog\\Desktop\\github\\USP-ANA\\USP.Worker\\USP.Worker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anaog\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-rc.1.24431.7\\microsoft.extensions.configuration.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\anaog\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-rc.1.24431.7\\microsoft.extensions.configuration.abstractions.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "C:\\Users\\anaog\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-rc.1.24431.7\\microsoft.extensions.primitives.9.0.0-rc.1.24431.7.nupkg.sha512"
+  ],
+  "logs": []
+}
