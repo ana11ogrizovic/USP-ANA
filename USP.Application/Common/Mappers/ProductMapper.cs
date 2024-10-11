@@ -3,6 +3,7 @@ using Riok.Mapperly.Abstractions;
 using USP.Application.Common.Dto;
 using USP.Domain.Entities;
 using USP.Domain.Enums;
+using ProductDetailsDto = USP.Application.Common.Dto.ProductDetailsDto;
 
 namespace USP.Application.Common.Mappers;
 
@@ -10,7 +11,7 @@ namespace USP.Application.Common.Mappers;
 public static partial class ProductMapper
 {
     
-    public static partial ProductDetailsDto ToDto(this Domain.Entities.Product entity);
+    public static partial ProductDetailsDto? ToDto(this Domain.Entities.Product entity);
 
     public static ProductCustomDetailsDto ToCustomDto(this Domain.Entities.Product entity)
     {
