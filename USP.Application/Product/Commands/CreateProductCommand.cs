@@ -5,6 +5,7 @@ using USP.Application.Common.Dto;
 using USP.Application.Common.Mappers;
 using USP.Domain.Entities;
 using USP.Domain.Enums;
+using ProductDetailsDto = USP.Application.Common.Dto.ProductDetailsDto;
 
 namespace USP.Application.Product.Commands;
 public record CreateProductCommand(ProductCreateDto Product) : IRequest<string>, IRequest<ProductDetailsDto>;
