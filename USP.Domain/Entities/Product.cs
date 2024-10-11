@@ -27,5 +27,13 @@ public class Product : Entity
         this.InitManyToMany(() => ReferencedManyToManyUser, user => user.ReferencedManyToManyProducts);
     }
 
-    
+
+    public async Task<ProductDetailsDto> ToDtoAsync()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+public class ProductDetailsDto
+{
 }
